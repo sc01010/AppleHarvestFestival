@@ -1,0 +1,1010 @@
+/* This is going to be the media query for when the width of the screen is roughly the size of a desktop - this is based on the content that I have on my webpage */
+@media (min-width: 1180px) {
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+/* This makes sure that the title of the website is visible and stands out when the user first enters the website. */
+  header {
+    color:#1c1ed5;
+    font-size: 18px;
+    text-align: left;
+    width: 100%
+  }
+
+  div.img {
+    width: 30%;
+    padding-top: 10px;
+  }
+
+  div.top {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid;
+    justify-content: left;
+  }
+
+  div.thebox {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+/* This is used to hide the source information of the logo because the source information hinders the purpose of the logo. */
+  div.logo {
+    visibility: hidden;
+  }
+
+  nav ul li {
+    display: inline-block;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right:5px;
+    text-align: center;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.log img{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.content {
+    display:flex;
+    flex-direction: row;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding-left: 10px;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  div.folder {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+/* changing the navigation bar so that when the cursor hovers over the navigation bar, the background-color changes */
+  #nav li {
+  	margin: 0px;
+  	padding: 0px;
+  	white-space: nowrap;
+  	line-height: 180%;
+  }
+  #nav a {
+  	padding-top: 2px;
+  	padding-right: 5px;
+  	padding-left: 2px;
+  	padding-bottom: 2px;
+  	text-decoration: none;
+  	background-color: #91f78f;
+
+  }
+  #nav a:link {
+  	color: #333333;
+  }
+
+  #nav a:visited {
+  	color: #000000;
+  }
+
+  #nav a:hover {
+  	background-color: #faff00;
+  }
+
+  #nav a:active{
+    background-color: #26e8eb;
+  }
+
+/*making sure that the navigation bar displays to the users the page that they are currently on my undering the tab on the navigation bar and also bolding the text */
+  .live{
+    font-weight: bold;
+    border: 5px solid #ac0fac;
+  }
+
+  main a{
+    font-size: 20px
+  }
+
+  nav a {
+    font-size: 26px;
+  }
+
+  div.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.layer2{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.firstset{
+    padding-right: 15px;
+  }
+
+  /* changing the amount of space that is dedicated to the right and left piece of contents on the about, navigation, and homepage webpages. This makes sure that the images are displayed at the right size. */
+  main{
+    width:40%
+  }
+  aside{
+    width: 60%;
+    border: 2px solid;
+  }
+  div.logo{
+    visibility: hidden;
+  }
+
+  form {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin-left: 15%;
+  }
+
+  .label-and-input {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .label-and-input label{
+    width: 30%;
+    text-align: right;
+    margin-right: 3px;
+    font-weight: bold;
+  }
+
+  #instructions {
+    margin-bottom: 20px;
+  }
+
+  #send {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 70%;
+    margin-right: 30%;
+  }
+
+  #email {
+    width: 190px;
+  }
+
+  #name {
+    width: 140px;
+  }
+  #number-of-attendees{
+    width: 60px;
+  }
+
+  .inner-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 17%;
+    width: 900px;
+    text-align: left;
+  }
+  .inner-box label {
+    text-align: right;
+  }
+
+  .inner-box input {
+    justify-content: left;
+  }
+
+  .label-and-input-check {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30%;
+    padding-bottom: 3px;
+  }
+  .labeler {
+    padding-left: 3px;
+  }
+
+  .error {
+    margin-left: 26%;
+    padding-top: 10px;
+    margin-top: 0px;
+/*    height: 36px; */
+    padding-left: 40px;
+  }
+
+  p {
+    font-size: 14px;
+    padding-left: 2px;
+    border-left: 1px #e31b1b solid;
+    color: #e31b1b;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    margin-left: 4px;
+  }
+  .error-final {
+    margin-left: 25%;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 50px;
+  }
+  .error-final p {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+  .lastP {
+    padding-left: 30%;
+    font-weight: bold;
+  }
+  .hidden {
+    display: none;
+  }
+  button:hover {
+    background-color: #e1f128
+  }
+  button:active {
+    background-color: #bf4018
+  }
+
+  footer {
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 10px;
+    background-color: #cfcfec;
+    padding-bottom: 50px;
+    padding-top: 5px;
+  }
+
+  .spacing {
+    margin-top: 65px;
+    margin-bottom: 90px;
+  }
+
+  .normal-description {
+    color: black;
+    border: none;
+  }
+
+  .spacing-description {
+    margin-bottom: 20px;
+  }
+
+  .decrease-margin {
+    margin-bottom: 5px;
+  }
+
+  .text-increase-headingOne {
+    font-size: 50px;
+  }
+
+  .text-increase-headingThree {
+    font-size: 25px;
+  }
+
+  .inner-spacing {
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+
+  .increase-font {
+    font-size: 25px;
+  }
+
+  .increase-fontOne {
+    font-size: 18px;
+  }
+}
+/* This is going to be the media query for when the width of the screen is roughly the size of a mobile device - this is based on the content that I have on my webpage */
+@media (max-width: 650px){
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+/* This makes sure that the title of the website is visible and stands out when the user first enters the website. */
+  header {
+    height: 200px;
+    color:#1c1ed5;
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  div.top {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid;
+    justify-content: left;
+  }
+
+  header {
+    height: 100px
+  }
+
+  nav ul li {
+    display: inline-block;
+    flex-direction: row;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3px;
+    padding-right:3px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.content {
+    display:flex;
+    flex-direction: column;
+  }
+
+/* changing the amount of space that is dedicated to the right and left piece of contents on the about, navigation, and homepage webpages. This makes sure that the images are displayed at the right size. */
+  main {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  main.diff {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+/* changing the navigation bar so that when the cursor hovers over the navigation bar, the background-color changes */
+  #nav li {
+  	margin: 0px;
+  	padding: 0px;
+  	white-space: nowrap;
+  	line-height: 180%;
+  }
+  #nav a {
+  	padding-top: 2px;
+  	padding-right: 5px;
+  	padding-left: 2px;
+  	padding-bottom: 2px;
+  	text-decoration: none;
+  	background-color: #91f78f;
+    font-size: 34px;
+  }
+  #nav a:link {
+  	color: #333333;
+  }
+
+  #nav a:visited {
+  	color: #000000;
+  }
+
+  #nav a:hover {
+  	background-color: #faff00;
+  }
+
+  #nav a:active{
+    background-color: #26e8eb;
+  }
+
+  #nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*making sure that the navigation bar displays to the users the page that they are currently on my undering the tab on the navigation bar and also bolding the text */
+  .live{
+    font-weight: bold;
+    border: 5px solid #ac0fac;
+  }
+
+  main a{
+    font-size: 20px
+  }
+
+  nav a {
+    font-size: 26px;
+  }
+
+  img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.products div.folder{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+/* This is used to hide the source information of the logo because the source information hinders the purpose of the logo. */
+  div.logo{
+    visibility: hidden;
+  }
+
+  div.folder {
+    padding-bottom: 40px;
+  }
+
+  form {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin-left: 15%;
+  }
+
+  .label-and-input {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .label-and-input label{
+    text-align: left;
+    margin-right: 3px;
+    font-weight: bold;
+  }
+
+  #send {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 70%;
+    margin-right: 30%;
+  }
+
+  #email {
+    width: 190px;
+  }
+
+  #name {
+    width: 140px;
+  }
+
+  #number-of-attendees{
+    width: 60px;
+  }
+
+  #mode-of-transportation {
+    width: 250px;
+  }
+
+  .inner-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 17%;
+    width: 900px;
+    text-align: left;
+  }
+  .inner-box label {
+    text-align: right;
+  }
+
+  .inner-box input {
+    justify-content: left;
+  }
+
+  .label-and-input-check {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3px;
+  }
+  .labeler {
+    padding-left: 3px;
+  }
+
+  .error {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  p {
+    font-size: 14px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-left: 1px #e31b1b solid;
+    color: #e31b1b;
+  }
+  .error-final {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom:0px;
+  }
+
+  .error-final p {
+    margin-top: 20px;
+  }
+
+  #end {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lastP {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+  }
+  .hidden {
+    display: none;
+  }
+  #instructions {
+    margin-bottom: 20px;
+  }
+  button:hover {
+    background-color: #e1f128
+  }
+  button:active {
+    background-color: #bf4018
+  }
+
+  footer {
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 10px;
+    background-color: #cfcfec;
+    padding-bottom: 50px;
+    padding-top: 5px;
+  }
+
+  .spacing {
+    margin-top: 65px;
+    margin-bottom: 90px;
+  }
+
+  .normal-description {
+    color: black;
+    border: none;
+  }
+
+  .spacing-description {
+    margin-bottom: 20px;
+  }
+
+  .decrease-margin {
+    margin-bottom: 5px;
+  }
+
+  .text-increase-headingOne {
+    font-size: 50px;
+  }
+
+  .text-increase-headingThree {
+    font-size: 25px;
+  }
+
+  .inner-spacing {
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+
+  .increase-font {
+    font-size: 25px;
+  }
+
+}
+
+/* This is going to be the media query for when the width of the screen is roughly the size of a tablet - this is based on the content that I have on my webpage */
+@media (min-width: 650px) and (max-width: 1180px){
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  header {
+    height: 200px;
+    color:#1c1ed5;
+    font-size: 1.7em;
+    text-align: center;
+  }
+
+  div.top {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid;
+    justify-content: left;
+  }
+
+  header {
+    height: 100px
+  }
+
+  nav ul li {
+    display: inline-block;
+    flex-direction: row;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3px;
+    padding-right:3px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.content {
+    display:flex;
+    flex-direction: column;
+  }
+
+/* changing the amount of space that is dedicated to the right and left piece of contents on the about, navigation, and homepage webpages. This makes sure that the images are displayed at the right size. */
+  main {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  main.diff {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+/* changing the navigation bar so that when the cursor hovers over the navigation bar, the background-color changes */
+  #nav li {
+    margin: 0px;
+    padding: 0px;
+    white-space: nowrap;
+    line-height: 180%;
+  }
+
+  #nav a {
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    background-color: #91f78f;
+    font-size: 38px;
+  }
+
+  #nav a:link {
+    color: #333333;
+  }
+
+  #nav a:visited {
+    color: #000000;
+  }
+
+  #nav a:hover {
+    background-color: #faff00;
+  }
+
+  #nav a:active{
+    background-color: #26e8eb;
+  }
+
+
+/*making sure that the navigation bar displays to the users the page that they are currently on my undering the tab on the navigation bar and also bolding the text */
+  .live{
+    font-weight: bold;
+    border: 5px solid #ac0fac;
+  }
+
+  main a{
+    font-size: 20px
+  }
+
+  nav a {
+    font-size: 26px;
+  }
+
+  img {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.cap {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.products div.img {
+  justify-content: center;
+  }
+
+  div.products div.folder{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+
+  div.products main{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* This is used to hide the source information of the logo because the source information hinders the purpose of the logo. */
+  div.logo{
+    visibility: hidden;
+  }
+
+  div.folder {
+    padding-bottom: 40px;
+  }
+
+  form {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin-left: 15%;
+  }
+
+  .label-and-input {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .label-and-input label{
+    text-align: left;
+    margin-right: 3px;
+    font-weight: bold;
+  }
+
+  #send {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 70%;
+    margin-right: 30%;
+  }
+
+  #email {
+    width: 190px;
+  }
+
+  #name {
+    width: 140px;
+  }
+
+  #number-of-attendees{
+    width: 60px;
+  }
+
+  #mode-of-transportation {
+    width: 250px;
+  }
+
+  .inner-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 17%;
+    width: 900px;
+    text-align: left;
+  }
+  .inner-box label {
+    text-align: right;
+  }
+
+  .inner-box input {
+    justify-content: left;
+  }
+
+  .label-and-input-check {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3px;
+  }
+  .labeler {
+    padding-left: 3px;
+  }
+
+  .error {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  p {
+    font-size: 14px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-left: 1px #e31b1b solid;
+    color: #e31b1b;
+  }
+  .error-final {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom:0px;
+  }
+
+  .error-final p {
+    margin-top: 20px;
+  }
+
+  #end {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lastP {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+  }
+  .hidden {
+    display: none;
+  }
+  #instructions {
+    margin-bottom: 20px;
+  }
+  button:hover {
+    background-color: #e1f128
+  }
+  button:active {
+    background-color: #bf4018
+  }
+  footer {
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 10px;
+    background-color: #cfcfec;
+    padding-bottom: 50px;
+    padding-top: 5px;
+  }
+
+  .spacing {
+    margin-top: 65px;
+    margin-bottom: 90px;
+  }
+
+  .normal-description {
+    color: black;
+    border: none;
+  }
+
+  .spacing-description {
+    margin-bottom: 20px;
+  }
+
+  .decrease-margin {
+    margin-bottom: 5px;
+  }
+
+  .text-increase-headingOne {
+    font-size: 50px;
+  }
+
+  .text-increase-headingThree {
+    font-size: 25px;
+  }
+
+  .inner-spacing {
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+
+  .increase-font {
+    font-size: 25px;
+  }
+
+}
